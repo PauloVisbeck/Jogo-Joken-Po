@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Jogo JokenPô</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>JokenPô</h1>
+        <div id="botoes">
+            <!-- emojis do site https://www.quackit.com/ -->
+            <button id="pedra" onclick="jogadaPedra()">&#x1F44A</button>
+            <button id="papel" onclick="jogadaPapel()">&#x1F590</button>
+            <button id="tesoura" onclick="jogadaTesoura()">&#x270C</button>
+        </div>
+
+        <p id="resultado"></p>
+
+        <p class="meu-score">Sua pontuação: <span id="meu-score">0</span></p>
+        <p class="pc-score">Pontuação do PC: <span id="pc-score">0</span></p>
+
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
